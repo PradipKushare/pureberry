@@ -1,0 +1,240 @@
+body { margin: 0; padding: 0; font-family: 'Roboto', sans-serif; background-color: #fafafa; font-size: 14px; }
+* { margin: 0; padding: 0; }
+img { max-width: 100%; }
+a { text-decoration: none }
+a:hover { text-decoration: none }
+ul { list-style: none; margin: 0; padding: 0; }
+button:focus, .react-tabs__tab:focus { outline: none; box-shadow: none !important; }
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+
+
+.right-section .pro-box {
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 35px 20px 20px;
+	position: relative;
+	height: 100%
+}
+
+.right-section .pro-box:hover {
+	box-shadow: 0 0 0 1px #c1c1c1;
+	transition: all ease .2s
+}
+
+.right-section .product-list .bd-rl {
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 0
+}
+
+.right-section .pro-box p {
+	margin: 0 0 5px
+}
+
+.right-section .pro-box p:first-child {
+	height: 100%;
+	max-height: 150px
+}
+
+.right-section .pro-box p:last-child {
+	margin: 0
+}
+
+.right-section .pro-box a {
+	color: #2e2f43
+}
+
+.right-section .pro-box img {
+	width: 100%;
+	height: 100%;
+	max-height: 150px;
+	object-fit: contain;
+	object-position: center
+}
+
+.right-section .pro-box span {
+	color: #1fa71f
+}
+
+.right-section .pro-box .product-quantity span {
+	color: #212529
+}
+
+.right-section .pro-box .add-btn .cart-btn span {
+	color: #fff
+}
+
+.right-section .pro-box strike {
+	color: #797979
+}
+
+.right-section .pro-box .price {
+	font-size: 16px;
+	line-height: 15px
+}
+
+.right-section .pro-box .price span {
+	display: block;
+	font-size: 16px
+}
+
+.right-section .pro-box .price i {
+	margin: 0;
+	width: auto
+}
+
+.right-section .pro-box .price-cart-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+.right-section .pro-box .product-name {
+	min-height: 50px
+}
+
+.right-section .pro-box .price strike {
+	font-size: 14px
+}
+
+.right-section .pro-box p.add-btn {
+	transition: all ease .4s
+}
+
+.right-section .pro-box p.add-btn button {
+	padding: 7px 10px;
+	font-size: 12px;
+	background-color: #fff;
+	border-color: #ddd;
+	color: #2e2f43;
+	display: inline-block;
+	cursor: pointer
+}
+
+.right-section .pro-box:hover p.add-btn button {
+	background-color: #2e2f43;
+	color: #fff;
+	border-color: #2e2f43
+}
+
+.right-section .pro-box p.add-btn a:hover {
+	background-color: #f46712;
+	border-color: transparent;
+	color: #fff
+}
+.img-min-height {
+	min-height: 150px
+}
+
+.right-section .pro-box .product-name {
+	min-height: 50px
+}
+.right-section .pro-box .product-name {
+	min-height: 50px
+}
+.right-section .pro-box .price-cart-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+
+.right-section .pro-box .price {
+	font-size: 16px;
+	line-height: 15px
+}
+
+.right-section .pro-box .price span {
+	display: block;
+	font-size: 16px
+}
+
+
+.right-section .pro-box .price i {
+	margin: 0;
+	width: auto
+}
+
+.right-section .pro-box .price-cart-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+.right-section .pro-box .product-name {
+	min-height: 50px
+}
+
+.right-section .pro-box .price strike {
+	font-size: 14px
+}
+
+.right-section .pro-box p.add-btn {
+	transition: all ease .4s
+}
+
+.right-section .pro-box p.add-btn button {
+	padding: 7px 10px;
+	font-size: 12px;
+	background-color: #fff;
+	border-color: #ddd;
+	color: #2e2f43;
+	display: inline-block;
+	cursor: pointer
+}
+.right-section .pro-box .add-btn .cart-btn span {
+	color: #fff
+}
+
+.right-section .pro-box:hover p.add-btn button {
+	background-color: #2e2f43;
+	color: #fff;
+	border-color: #2e2f43
+}
+
+.right-section .pro-box:hover {
+  -webkit-box-shadow: 0px 6px 11px 0px rgba(119,119,119,1);
+  -moz-box-shadow: 0px 6px 11px 0px rgba(119,119,119,1);
+  box-shadow: 0px 6px 11px 0px rgba(119,119,119,1);
+}
+
+.right-section .pro-box p.add-btn a:hover {
+	background-color: #f46712;
+	border-color: transparent;
+	color: #fff
+}
+
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: block;
+  overflow: hidden;
+  outline: 0;
+}
+
+  .cat-lists{
+        border-style: groove;
+        margin: 3px;
+  }
+
+  .top-menu {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
